@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="he">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>תזכורות לפי תאריך עברי</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>הוספת תזכורות לפי תאריך עברי</h1>
+    </header>
+    <main>
+        <form id="reminder-form">
+            <label for="hebrew-date">תאריך עברי:</label>
+            <input type="text" id="hebrew-date" placeholder="לדוגמה: י' בכסלו תשפ"ד" required>
+
+            <label for="reminder-text">תיאור התזכורת:</label>
+            <input type="text" id="reminder-text" placeholder="לדוגמה: יום הולדת לאבא" required>
+
+            <button type="submit">הוסף תזכורת</button>
+        </form>
+        <p id="message"></p>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
